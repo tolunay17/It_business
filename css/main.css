@@ -100,6 +100,27 @@ h1 span {
   padding-bottom: 1rem;
 }
 
+.social-media {
+  margin-top: 3rem;
+}
+
+.social-media ul {
+  display: flex;
+}
+
+.social-media ul li {
+  list-style: none;
+  padding: 1rem;
+}
+
+.social-media ul li img {
+  width: 2rem;
+}
+
+.social-media svg {
+  color: #fff;
+}
+
 .all-home button {
   color: #fff;
   background-color: red;
@@ -385,8 +406,9 @@ hr {
 .message-container {
   max-width: 40rem;
   margin: auto;
-  background: white;
   padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid hsl(200deg 10% 50%);
   border-radius: 0.5rem;
 }
 
