@@ -233,6 +233,16 @@ hr {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(28, 232, 21, 75), rgba(0, 0, 0, 0))
 }
 
+.title img {
+  max-width: 100%;
+}
+
+.link_jos {
+  text-decoration: none;
+  color: red;
+  font-size: 1.5rem;
+}
+
 .title {
   width: 100%;
   display: flex;
